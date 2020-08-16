@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8080/
+  application:
+    name: spring-client-server
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
